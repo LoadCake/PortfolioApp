@@ -6,9 +6,9 @@
                 <polygon points="200,0 190,0 0,200 200,200" fill="#475569"/>
             </svg>
             <div class="grow bg-slate-600 flex flex-col items-center pt-20 pb-20 pl-20 pr-20 space-y-20 justify-center">
-                <button>Mastodon</button>
-                <button>Github</button>
-                <button>Linkedin</button>
+                <a href="https://mastodon.gamedev.place/@LoadCake"><nuxt-icon name="mastodon"></nuxt-icon></a>
+                <a href="https://github.com/LoadCake"><nuxt-icon name="github"></nuxt-icon></a>
+                <a href="https://www.linkedin.com/in/stefan-łodyga-15a982182/"><nuxt-icon name="linkedin"></nuxt-icon></a>
             </div>
         </div>
     </div>
@@ -18,6 +18,9 @@
 
 </script>
 
-<style lang="scss" scoped>
-
+<style>
+    .nuxt-icon svg{
+        width: 98px;
+        height: 96px;
+    }
 </style>
