@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[#0d1723];
+  @apply bg-[#0d1723];
 }
 a {
-    @apply hover:animate-pulse
+  @apply hover:animate-pulse;
 }
 
 @layer components {
-    * {
-        @apply font-sans text-white
-    }
+  * {
+    @apply font-sans text-white;
+  }
 }
