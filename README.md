@@ -1,4 +1,5 @@
-# Nuxt 3 Minimal Starter
+# Portfolio app written in Nuxt 3
+Project of a portfolio app made to learn web app development using Vue and Nuxt Framework
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
