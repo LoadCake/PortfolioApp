@@ -1,10 +1,4 @@
 <template>
-  <nav class="bg-slate-600">
-    <ul class="flex py-5 space-x-20 justify-center">
-      <li>Main Page</li>
-      <li>Blog</li>
-    </ul>
-  </nav>
   <div class="flex items-stretch h-[100vh]">
     <img
       class="grow min-w-0 object-cover mr-[-5rem]"
