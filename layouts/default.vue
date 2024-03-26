@@ -3,7 +3,7 @@
         <nav class="bg-slate-600">
             <ul class="flex py-5 space-x-20 justify-center">
                 <li><NuxtLink to="/">Main Page</NuxtLink></li>
-                <li><NuxtLink to="/blog">Blog</NuxtLink></li>
+                <!--<li><NuxtLink to="/blog">Blog</NuxtLink></li>-->
             </ul>
         </nav>
     </header>
