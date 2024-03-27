@@ -1,9 +1,10 @@
 <template>
   <head> </head>
   <div class="flex items-stretch h-[100vh]">
-    <div>
-      <div class="intro">
-        <h1>Hello, welcome :)</h1>
+    <div class="flex flex-col">
+      <div class="prose lg:prose-xl absolute top-20 left-8">
+        <h1 class="text-white intro pb-1 mb-1">Hello</h1>
+        <h2 class="text-white intro mt-1" style="animation-delay: 1000ms">welcome to my website :)</h2>
       </div>
       <img class="grow min-w-0 object-cover mr-[-5rem]" src="/img/bash_tree.png" />
     </div>
@@ -34,7 +35,7 @@
   @keyframes fade-in {
     0% {
       opacity: 0;
-      transform: translateX(15px) scale(0.9);
+      transform: translateX(100px) scale(0.9);
     }
 
     100% {
@@ -44,7 +45,7 @@
   }
 
   .intro {
-    animation: fade-in 0.5s;
+    animation: fade-in 1.5s ease-out 800ms 1 normal both;
   }
 
   a {
