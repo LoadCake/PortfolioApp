@@ -1,5 +1,4 @@
 <template>
-  <head> </head>
   <div class="flex items-stretch h-[100vh]">
     <div class="flex flex-col">
       <div class="text-[2em] relative top-[0.5em] left-[0.5em]">
@@ -24,7 +23,6 @@
     </div>
   </div>
 </template>
-<script setup></script>
 
 <style>
   .nuxt-icon svg {
