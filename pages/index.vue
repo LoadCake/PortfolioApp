@@ -2,12 +2,12 @@
   <div class="flex items-stretch h-[100vh]">
     <div class="flex flex-col">
       <div class="text-[2em] relative top-[0.5em] left-[0.5em]">
-        <h1 class="intro pb-1 mb-1">Hello</h1>
-        <h2 class="intro mt-1" style="animation-delay: 1000ms">welcome to my website :)</h2>
+        <h1 class="intro pb-1 mb-1 headline">Hello,</h1>
+        <h2 class="intro mt-1 headline" style="animation-delay: 1000ms">welcome to my website :)</h2>
       </div>
       <img class="grow min-w-0 object-cover mr-[-5rem]" src="/img/bash_tree.png" />
     </div>
-    <div class="flex">
+    <div class="flex grow">
       <svg
         viewBox="0 0 200 200"
         preserveAspectRatio="none"
@@ -24,10 +24,19 @@
   </div>
 </template>
 
+<script>
+  // Supports weights 100-900
+  import '@fontsource-variable/outfit'
+</script>
+
 <style>
   .nuxt-icon svg {
     width: 98px;
     height: 96px;
+  }
+
+  .headline {
+    font-family: 'Outfit Variable', sans-serif;
   }
 
   @keyframes fade-in {
