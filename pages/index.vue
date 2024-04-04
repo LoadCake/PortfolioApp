@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-stretch h-[100vh]">
+  <div class="flex items-stretch">
     <div class="flex flex-col">
       <div class="text-[2em] relative top-[0.5em] left-[0.5em]">
         <h1 class="intro pb-1 mb-1 headline">Hello,</h1>
