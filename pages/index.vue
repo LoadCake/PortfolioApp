@@ -5,7 +5,7 @@
         <h1 class="intro pb-1 mb-1 headline">Hello,</h1>
         <h2 class="intro mt-1 headline" style="animation-delay: 1000ms">welcome to my website :)</h2>
       </div>
-      <img class="grow min-w-0 object-cover mr-[-5rem]" src="/img/bash_tree.png" />
+      <img class="grow min-w-0 object-cover mr-[-5rem] appear" src="/img/bash_tree.png" />
     </div>
     <div class="flex grow">
       <svg
@@ -39,7 +39,7 @@
     font-family: 'Outfit Variable', sans-serif;
   }
 
-  @keyframes fade-in {
+  @keyframes fade-in-move-left {
     0% {
       opacity: 0;
       transform: translateX(100px) scale(0.9);
@@ -52,7 +52,23 @@
   }
 
   .intro {
-    animation: fade-in 1.5s ease-out 800ms 1 normal both;
+    animation: fade-in-move-left 1.5s ease-out 800ms 1 normal both;
+  }
+
+  @keyframes fade-in-move-up {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  .appear {
+    animation: fade-in-move-up 1s ease;
   }
 
   a {
